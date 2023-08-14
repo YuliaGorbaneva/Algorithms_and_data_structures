@@ -21,20 +21,38 @@ public class Main_Seminar4 {
         // System.out.println(c.hashCode());
         // System.out.println(d.hashCode());
 
-        HashTable<Integer, String> table = new HashTable<>();
+        // HashTable<Integer, String> table = new HashTable<>();
 
-        table.add(0, "Hello");
-        table.add(4, "Zdraste");
-        table.add(5, "World");
+        // table.add(0, "Hello");
+        // table.add(4, "Zdraste");
+        // table.add(5, "World");
         // table.add(8, "Privet");
         // table.add(7, "Zdrastrrre");
         // table.add(2, "Zdrafsdadsasdssste");
 
-        table.print();
+        // table.print();
 
-        System.out.println(table.getSize());
-        System.out.println(table.getLenght());
+        // System.out.println(table.getSize());
+        // System.out.println(table.getLenght());
         // System.out.println(table.getValue("World"));
+
+        BinTree tree = new BinTree();
+
+        tree.add(5);
+        tree.add(1);
+        tree.add(8);
+        tree.add(7);
+        tree.add(6);
+        tree.add(2);
+        tree.add(0);
+
+        System.out.println(tree.contain(5));
+        System.out.println(tree.contain(1));
+        System.out.println(tree.contain(8));
+        System.out.println(tree.contain(7));
+        System.out.println(tree.contain(6));
+        System.out.println(tree.contain(2));
+        System.out.println(tree.contain(0));
 
     }
 }

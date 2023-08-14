@@ -26,7 +26,7 @@ public class HashTable<K, V> {
     }
 
     public boolean add(K key, V value) {
-        if (lists.length * LOAD_SIZE < size) {
+        if (lists.length * LOAD_SIZE <= size) {
             resize();
         }
         int index = calculateIndex(key);
@@ -57,7 +57,7 @@ public class HashTable<K, V> {
 
     private void resize() {
         List<K, V>[] old = lists;
-        lists = new List[(int) (old.length + 1.5)];
+        lists = new List[(int) (old.length * 1.5)];
         for (int i = 0; i < old.length; i++) {
             List<K, V> list = old[i];
             if (list == null) {
