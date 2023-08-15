@@ -36,23 +36,23 @@ public class Main_Seminar4 {
         // System.out.println(table.getLenght());
         // System.out.println(table.getValue("World"));
 
-        BinTree tree = new BinTree();
+        // BinTree tree = new BinTree();
 
-        tree.add(5);
-        tree.add(1);
-        tree.add(8);
-        tree.add(7);
-        tree.add(6);
-        tree.add(2);
-        tree.add(0);
+        // tree.add(5);
+        // tree.add(1);
+        // tree.add(8);
+        // tree.add(7);
+        // tree.add(6);
+        // tree.add(2);
+        // tree.add(0);
 
-        System.out.println(tree.contain(5));
-        System.out.println(tree.contain(1));
-        System.out.println(tree.contain(8));
-        System.out.println(tree.contain(7));
-        System.out.println(tree.contain(6));
-        System.out.println(tree.contain(2));
-        System.out.println(tree.contain(0));
+        // System.out.println(tree.contain(5));
+        // System.out.println(tree.contain(1));
+        // System.out.println(tree.contain(8));
+        // System.out.println(tree.contain(7));
+        // System.out.println(tree.contain(6));
+        // System.out.println(tree.contain(2));
+        // System.out.println(tree.contain(0));
 
     }
 }
